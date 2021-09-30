@@ -137,7 +137,7 @@ const Bride = styled.div `
             border-radius: 50%;
         }
 
-        @media(max-width:920px){
+        @media(max-width:1020px){
             margin: 0;
         } 
     }
@@ -145,7 +145,7 @@ const Bride = styled.div `
     .info{
         text-align: right;
 
-        @media(max-width:920px){
+        @media(max-width:1020px){
             text-align: center;
         }
     }
@@ -153,7 +153,7 @@ const Bride = styled.div `
    
 
 
-    @media(max-width:920px){
+    @media(max-width:1020px){
         flex-direction: column;
         text-align: center;
         .image{
@@ -174,12 +174,12 @@ const Groom = styled.div `
             border-radius: 50%;
         }
 
-        @media(max-width:920px){
+        @media(max-width:1020px){
             margin: 0;
         } 
     }
 
-    @media(max-width:920px){
+    @media(max-width:1020px){
         flex-direction: column;
         text-align: center;
     } 
