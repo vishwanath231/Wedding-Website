@@ -5,6 +5,7 @@ import Couple from './Layout/Couple/Couple';
 import Story from './Layout/Story/Story';
 import Gallery from './Layout/Gallery/Gallery';
 import Gift from './Layout/Gift/Gift';
+import BannerOne from './Layout/Banner-1/BannerOne';
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
             <div id="ourStory">
                 <Story />
             </div>
+            <BannerOne />
             <div id="gallery">
                 <Gallery />
             </div>
