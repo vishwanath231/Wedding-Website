@@ -13,7 +13,7 @@ const Gallery = () => {
                     
                 </Box>
             </GalleryContainer>
-            <h2>Galleryhhhh</h2>
+            <h2>Gallery</h2>
         </>
     )
 }

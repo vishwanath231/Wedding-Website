@@ -81,7 +81,7 @@ const Box = styled.div `
     display: grid;
     grid-gap: 2em;
     
-    @media(min-width:920px){
+    @media(min-width:1020px){
         display: grid;
         grid-gap: 2em;
         grid-template-columns: repeat(2, 1fr);
