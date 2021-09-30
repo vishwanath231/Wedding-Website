@@ -5,6 +5,7 @@ const Navbar = () => {
 
     const [click, setClick] = useState(false);
     const [scrolled,setScrolled]= useState(false);
+    const [visible, setVisible] = useState(false)
 
     const handleClick = () => setClick(!click);
 
@@ -17,13 +18,32 @@ const Navbar = () => {
         else{
             setScrolled(false);
         }
+    }
 
+    const toggleVisible = () => {
+        const scrolled = document.documentElement.scrollTop;
+        
+        if (scrolled > 200){
+            setVisible(true)
+        } 
+        else if (scrolled <= 200){
+            setVisible(false)
+        }
+    };
+
+
+    const scrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
     }
 
 
     useEffect(() => {
         
-        window.addEventListener('scroll', handelScroll)
+        window.addEventListener('scroll', handelScroll);
+        window.addEventListener('scroll', toggleVisible);
     }, [])
 
 
@@ -69,12 +89,47 @@ const Navbar = () => {
                     </ul>
                 </div>
             </Mobile>
+            <BacktoTop>
+                <button className={visible ? "top active" : "top"} onClick={scrollTop}><img src="image/arrow.png" alt="arrow" /></button>
+            </BacktoTop>
               
         </>
     )
 }
 
 export default Navbar;
+
+const BacktoTop = styled.div `
+    
+    .top {
+
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        outline: none;
+        border: none;
+        padding: 10px;
+        background: #cb966a;
+        display: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+        img {
+            width: 27px;
+            transform: rotate(-90deg);
+        }
+    }
+
+    .top.active{
+        display: block;
+        z-index: 9999;
+        cursor: pointer;
+    }
+
+`;
 
 
 const NavContainer = styled.div `
@@ -98,6 +153,7 @@ const NavContainer = styled.div `
             a{
                 color:#000;
                 transition: all .6s ease;
+                scroll-behavior: smooth;
 
                 &:hover{
                     color:#cb966a;

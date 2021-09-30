@@ -47,8 +47,12 @@ const Container = styled.div `
         min-height: 60vh;
         color: #fff;
         font-family: 'Alex Brush', cursive;
-        font-size: 50px;
+        font-size: 35px;
         font-weight: 500;
+
+        @media(min-width:768px){
+            font-size: 50px;
+        }
     }
 
 `;
