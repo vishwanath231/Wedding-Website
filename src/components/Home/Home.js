@@ -8,6 +8,7 @@ import Gift from './Layout/Gift/Gift';
 import BannerOne from './Layout/Banner-1/BannerOne';
 import Event from './Layout/Event/Event';
 import Friend from './Layout/Friend/Friend';
+import Footer from './Layout/Footer/Footer';
 
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
             <div id="giftRegistry">
                 <Gift />
             </div>
+            <Footer />
         </div>
     )
 }

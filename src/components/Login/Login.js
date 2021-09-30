@@ -94,7 +94,7 @@ export default Login;
 const Container = styled.div `
     width: 100%;
     height: 100%;
-    background: url('image/login.jpg');
+    background: url('image/banner/banner-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
