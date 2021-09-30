@@ -76,7 +76,7 @@ const Box = styled.div `
         img{
             width: 100%;
             @media(min-width:600px){
-                width: 300px;
+                width: 500px;
                 object-fit: cover;
                 text-align: right;
             } 
