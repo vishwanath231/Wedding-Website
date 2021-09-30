@@ -20,7 +20,7 @@ const Container = styled.div `
 
     width: 100%;
     height: 60vh;
-    background: url('image/banner-1.jpg');
+    background: url('image/banner/banner-1.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

@@ -7,7 +7,7 @@ const Couple = () => {
     return (
         <div>
             <Flower>
-                <img src="image/flowers.gif" alt="" />
+                <img src="image/gif/flowers.gif" alt="" />
             </Flower>
             <CoupleContainer>
                 <Box>

@@ -6,6 +6,8 @@ import Story from './Layout/Story/Story';
 import Gallery from './Layout/Gallery/Gallery';
 import Gift from './Layout/Gift/Gift';
 import BannerOne from './Layout/Banner-1/BannerOne';
+import Event from './Layout/Event/Event';
+import Friend from './Layout/Friend/Friend';
 
 
 const Home = () => {
@@ -22,6 +24,12 @@ const Home = () => {
                 <Story />
             </div>
             <BannerOne />
+            <div id="event">
+                <Event />
+            </div>
+            <div id="friend">
+                <Friend />
+            </div>
             <div id="gallery">
                 <Gallery />
             </div>

@@ -6,7 +6,7 @@ const Story = () => {
     return (
         <div>
             <Flower>
-                <img src="image/flowers2.gif" alt="" />
+                <img src="image/gif/flowers2.gif" alt="" />
             </Flower>
 
             <StoryContainer>
@@ -76,7 +76,7 @@ const Box = styled.div `
         img{
             width: 100%;
             @media(min-width:600px){
-                width: 500px;
+                width: 300px;
                 object-fit: cover;
                 text-align: right;
             } 

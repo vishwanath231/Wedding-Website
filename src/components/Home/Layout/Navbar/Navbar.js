@@ -40,6 +40,8 @@ const Navbar = () => {
                             <li><a href="#home">Home</a></li>
                             <li><a href="#couple">Couple</a></li>
                             <li><a href="#ourStory">Our Story</a></li>
+                            <li><a href="#event">Event</a></li>
+                            <li><a href="#friend">Friends</a></li>
                             <li><a href="#gallery">Gallery</a></li>
                             <li><a href="#giftRegistry">Gift Registry</a></li>
                         </ul>
@@ -60,6 +62,8 @@ const Navbar = () => {
                         <li><a href="#home" class="mobile__item">Home</a></li>
                         <li><a href="#couple" class="mobile__item">Couple</a></li>
                         <li><a href="#ourStory" class="mobile__item">Our Story</a></li>
+                        <li><a href="#event" class="mobile__item">Event</a></li>
+                        <li><a href="#friend" class="mobile__item">Friends</a></li>
                         <li><a href="#gallery" class="mobile__item">Gallery</a></li>
                         <li><a href="#giftRegistry" class="mobile__item">Gift Registry</a></li>
                     </ul>
@@ -236,12 +240,12 @@ const Mobile = styled.div `
     }
 
     .mobile__menu-list ul {
-        padding-top: 4rem;
+        padding-top: 2.5rem;
         text-align: center;
     }
 
     .mobile__menu-list ul li {
-        margin: 4rem 0;
+        margin: 3rem 0;
     }
 
     .mobile__menu-list ul li a {
