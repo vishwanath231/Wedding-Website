@@ -43,7 +43,6 @@ const Couple = () => {
                     </Groom>
                 </Box>
             </CoupleContainer>
-            <h2>couple</h2>
         </div>
     )
 }
