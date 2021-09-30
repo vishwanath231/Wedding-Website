@@ -4,7 +4,7 @@ import Header from './Layout/Header/Header';
 import Couple from './Layout/Couple/Couple';
 import Story from './Layout/Story/Story';
 import Gallery from './Layout/Gallery/Gallery';
-import Gift from './Layout/Gift/Gift';
+import RSVP from './Layout/RSVP/RSVP';
 import BannerOne from './Layout/Banner-1/BannerOne';
 import Event from './Layout/Event/Event';
 import Friend from './Layout/Friend/Friend';
@@ -34,8 +34,8 @@ const Home = () => {
             <div id="gallery">
                 <Gallery />
             </div>
-            <div id="giftRegistry">
-                <Gift />
+            <div id="rsvp">
+                <RSVP />
             </div>
             <Footer />
         </div>

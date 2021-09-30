@@ -43,7 +43,7 @@ const Navbar = () => {
                             <li><a href="#event">Event</a></li>
                             <li><a href="#friend">Friends</a></li>
                             <li><a href="#gallery">Gallery</a></li>
-                            <li><a href="#giftRegistry">Gift Registry</a></li>
+                            <li><a href="#rsvp">R.S.V.P</a></li>
                         </ul>
                         <MenuBar onClick={handleClick}>
                             <div className={click ? "hamburger open" : "hamburger"}>
@@ -65,7 +65,7 @@ const Navbar = () => {
                         <li><a href="#event" class="mobile__item">Event</a></li>
                         <li><a href="#friend" class="mobile__item">Friends</a></li>
                         <li><a href="#gallery" class="mobile__item">Gallery</a></li>
-                        <li><a href="#giftRegistry" class="mobile__item">Gift Registry</a></li>
+                        <li><a href="#rsvp" class="mobile__item">R.S.V.P</a></li>
                     </ul>
                 </div>
             </Mobile>
