@@ -57,7 +57,7 @@ const Flower = styled.div `
    justify-content: center;
    align-items: center;
    padding: 0 15px;
-   margin: 2rem auto;
+   margin: 2rem auto 5rem auto;
 
     img{
        width: 150px;
