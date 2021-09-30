@@ -38,7 +38,7 @@ const Friend = () => {
                         </div>
                         <div className="box">
                             <img src="image/friends/b2.jpg" alt="" />
-                            <h2>Setfano Smiht</h2>
+                            <h2>Matthew Brown</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
                                 <FontAwesomeIcon icon={faFacebookF} className="icon"  />
@@ -48,7 +48,7 @@ const Friend = () => {
                         </div>
                         <div className="box">
                             <img src="image/friends/b3.jpg" alt="" />
-                            <h2>Setfano Smiht</h2>
+                            <h2>Pablo Dante</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
                                 <FontAwesomeIcon icon={faFacebookF} className="icon"  />
@@ -61,7 +61,7 @@ const Friend = () => {
                     <Bride>    
                         <div className="box">
                             <img src="image/friends/w1.jpg" alt="" />
-                            <h2>Setfano Smiht</h2>
+                            <h2>Eleanor Chris</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
                                 <FontAwesomeIcon icon={faFacebookF} className="icon"  />
@@ -71,7 +71,7 @@ const Friend = () => {
                         </div>
                         <div className="box">
                             <img src="image/friends/w2.jpg" alt="" />
-                            <h2>Setfano Smiht</h2>
+                            <h2>Vanessa Brown</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
                                 <FontAwesomeIcon icon={faFacebookF} className="icon"  />
@@ -81,7 +81,7 @@ const Friend = () => {
                         </div>
                         <div className="box">
                             <img src="image/friends/w3.jpg" alt="" />
-                            <h2>Setfano Smiht</h2>
+                            <h2>Fredis Halle</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
                                 <FontAwesomeIcon icon={faFacebookF} className="icon"  />
@@ -189,7 +189,7 @@ const Bride = styled.div `
 
         h2{
             font-size: 1.3rem;
-            font-weight: 600;
+            font-weight: 500;
             margin: 1rem 0 .5rem 0;
         }
         p{
