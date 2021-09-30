@@ -37,7 +37,7 @@ const Navbar = () => {
                             <img src="image/logo.png" alt="logo" />
                         </Logo>
                         <ul className={click ? "nav__menu active": "nav__menu"}>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#home">Home</a></li>
                             <li><a href="#couple">Couple</a></li>
                             <li><a href="#ourStory">Our Story</a></li>
                             <li><a href="#gallery">Gallery</a></li>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <Mobile onClick={handleClick}>
                 <div class={click ? "mobile__menu-list active" : "mobile__menu-list"}>
                     <ul>
-                        <li><a href="#" class="mobile__item">Home</a></li>
+                        <li><a href="#home" class="mobile__item">Home</a></li>
                         <li><a href="#couple" class="mobile__item">Couple</a></li>
                         <li><a href="#ourStory" class="mobile__item">Our Story</a></li>
                         <li><a href="#gallery" class="mobile__item">Gallery</a></li>
@@ -86,19 +86,21 @@ const NavContainer = styled.div `
         }
     }
 
-    .nav.scroll{
-        background: #fff;
+    @media(min-width:920px){
+        .nav.scroll{
+            background: #fff;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
-        a{
-            color:#000;
-            transition: all .6s ease;
+            a{
+                color:#000;
+                transition: all .6s ease;
 
-            &:hover{
-                color:#cb966a;
+                &:hover{
+                    color:#cb966a;
+                }
             }
         }
     }
-
     .navbar{
         max-width: 1140px;
         margin: 0 auto;
@@ -139,7 +141,12 @@ const NavContainer = styled.div `
 const Logo = styled.div `
 
     img{
-        width: 50px;
+        display: none;
+
+        @media(min-width:920px){
+            width: 50px;
+            display: block;
+        }
     }
 `;
 
@@ -149,8 +156,8 @@ const MenuBar = styled.div `
     
     .hamburger {
         position: relative;
-        width: 30px;
-        height: 24px;
+        width: 27px;
+        height: 22px;
         cursor: pointer;
         transform: rotate(0deg);
         transition: .5s ease-in-out;
@@ -160,8 +167,8 @@ const MenuBar = styled.div `
         position: absolute;
         width: 100%;
         height: 2px;
-        left: 0;
-        background: #cb966a;
+        right: 4px;
+        background: #fff;
         border-radius: 6px;
         transform: rotate(0deg);
         transition: .25s ease-in-out;
@@ -175,11 +182,11 @@ const MenuBar = styled.div `
 
     .hamburger span:nth-child(2),
     .hamburger span:nth-child(3) {
-        top: 10px;
+        top: 8px;
     }
 
     .hamburger span:nth-child(4) {
-        top: 20px;
+        top: 16px;
     }
 
     .hamburger.open span:nth-child(1) {
@@ -202,6 +209,14 @@ const MenuBar = styled.div `
 
     @media(max-width:920px){
         display: block;
+        background: #cb966a;
+        padding: 1rem;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 55px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
 
 

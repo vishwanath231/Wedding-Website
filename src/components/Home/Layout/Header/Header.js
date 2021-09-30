@@ -44,7 +44,8 @@ const Headers = styled.div `
         min-height: 100vh;
         color: #fff;
         font-family: 'Alex Brush', cursive;
-        font-size: 30px;
+        font-size: 50px;
+        font-weight: 500;
     }
 
 `;

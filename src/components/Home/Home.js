@@ -11,7 +11,9 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-            <Header />
+            <div id="home">
+                <Header />
+            </div>
             <div id="couple">
                 <Couple />
             </div>
