@@ -6,6 +6,7 @@ const BannerOne = () => {
         <>
             <Container>
                 <div className="header__content">
+                    <img src="image/wedding.png" alt="wedding" />
                     <h2>Olivia & Enrico</h2>
                 </div>
             </Container>
@@ -44,11 +45,17 @@ const Container = styled.div `
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         min-height: 60vh;
         color: #fff;
         font-family: 'Alex Brush', cursive;
         font-size: 35px;
         font-weight: 500;
+
+        img {
+            width: 70px;
+            margin-bottom: 1rem;
+        }
 
         @media(min-width:768px){
             font-size: 50px;

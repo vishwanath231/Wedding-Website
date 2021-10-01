@@ -54,7 +54,7 @@ const Navbar = () => {
                 <nav className={scrolled ? "nav scroll" : "nav"}>
                     <div className="navbar">
                         <Logo>
-                            <img src="image/logo.png" alt="logo" />
+                            <img src="image/logo.png " alt="logo" />
                         </Logo>
                         <ul className={click ? "nav__menu active": "nav__menu"}>
                             <li><a href="#home">Home</a></li>
