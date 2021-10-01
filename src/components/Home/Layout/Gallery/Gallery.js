@@ -6,7 +6,7 @@ const Gallery = () => {
     return (
         <>
             <Flower>
-                <img src="image/gif/flowers3.gif" alt="" />
+                <img src="image/gif/flowers3.gif" alt="Flowers" />
             </Flower>
             <GalleryContainer>
                 <Box>
@@ -14,22 +14,22 @@ const Gallery = () => {
                     <h3>OUR MEMORIES</h3>
                     <ImagesContainer>
                         <div className="image">
-                            <img src="image/gallery/1.jpg" alt="" />
+                            <img src="image/gallery/1.jpg" alt="photos-1" />
                         </div>
                         <div className="image">
-                            <img src="image/gallery/2.jpg" alt="" />
+                            <img src="image/gallery/2.jpg" alt="photos-2" />
                         </div>
                         <div className="image">
-                            <img src="image/gallery/3.jpg" alt="" />
+                            <img src="image/gallery/3.jpg" alt="photos-3" />
                         </div>
                         <div className="image">
-                            <img src="image/gallery/4.jpg" alt="" />
+                            <img src="image/gallery/4.jpg" alt="photos-4" />
                         </div>
                         <div className="image">
-                            <img src="image/gallery/5.jpg" alt="" />
+                            <img src="image/gallery/5.jpg" alt="photos-5" />
                         </div>
                         <div className="image">
-                            <img src="image/gallery/6.jpg" alt="" />
+                            <img src="image/gallery/6.jpg" alt="photos-6" />
                         </div>
                        
                     </ImagesContainer>

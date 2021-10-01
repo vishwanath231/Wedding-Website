@@ -6,13 +6,13 @@ const Story = () => {
     return (
         <div>
             <Flower>
-                <img src="image/gif/flowers2.gif" alt="" />
+                <img src="image/gif/flowers2.gif" alt="Flowers" />
             </Flower>
 
             <StoryContainer>
                 <Box>
                     <div className="image">
-                        <img src="image/story.jpg" alt="" />
+                        <img src="image/story.jpg" alt="couple" />
                     </div>
                     <div className="info">
                         <h4>Our Love</h4>

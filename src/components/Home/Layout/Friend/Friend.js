@@ -27,7 +27,7 @@ const Friend = () => {
                     { show ?  (
                     <Bride>
                         <div className="box">
-                            <img src="image/friends/b1.jpg" alt="" />
+                            <img src="image/friends/b1.jpg" alt="Men" />
                             <h2>Setfano Smiht</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
@@ -37,7 +37,7 @@ const Friend = () => {
                             </div>
                         </div>
                         <div className="box">
-                            <img src="image/friends/b2.jpg" alt="" />
+                            <img src="image/friends/b2.jpg" alt="Men" />
                             <h2>Matthew Brown</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
@@ -47,7 +47,7 @@ const Friend = () => {
                             </div>
                         </div>
                         <div className="box">
-                            <img src="image/friends/b3.jpg" alt="" />
+                            <img src="image/friends/b3.jpg" alt="Men" />
                             <h2>Pablo Dante</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
@@ -60,7 +60,7 @@ const Friend = () => {
                     ): (
                     <Bride>    
                         <div className="box">
-                            <img src="image/friends/w1.jpg" alt="" />
+                            <img src="image/friends/w1.jpg" alt="Women" />
                             <h2>Eleanor Chris</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
@@ -70,7 +70,7 @@ const Friend = () => {
                             </div>
                         </div>
                         <div className="box">
-                            <img src="image/friends/w2.jpg" alt="" />
+                            <img src="image/friends/w2.jpg" alt="Women" />
                             <h2>Vanessa Brown</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">
@@ -80,7 +80,7 @@ const Friend = () => {
                             </div>
                         </div>
                         <div className="box">
-                            <img src="image/friends/w3.jpg" alt="" />
+                            <img src="image/friends/w3.jpg" alt="Women" />
                             <h2>Fredis Halle</h2>
                             <p>Enstibulum eringilla dui athe slitene miss minibus viverra nectar.</p>
                             <div className="social">

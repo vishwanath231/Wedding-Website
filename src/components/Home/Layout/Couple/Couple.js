@@ -7,7 +7,7 @@ const Couple = () => {
     return (
         <div>
             <Flower>
-                <img src="image/gif/flowers.gif" alt="" />
+                <img src="image/gif/flowers.gif" alt="Flowers" />
             </Flower>
             <CoupleContainer>
                 <Box>
@@ -23,12 +23,12 @@ const Couple = () => {
                             </div>
                         </div>
                         <div className="image">
-                            <img src="image/bride.jpg" alt="" />
+                            <img src="image/bride.jpg" alt="The Bride" />
                         </div>
                     </Bride>
                     <Groom>
                         <div className="image">
-                            <img src="image/groom.jpg" alt="" />
+                            <img src="image/groom.jpg" alt="The Groom" />
                         </div>
                         <div className="info">
                             <h2>Enrico Danilo</h2>
